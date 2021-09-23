@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { Entypo  } from '@expo/vector-icons'
+import { Feather } from '@expo/vector-icons'
 import { TouchableOpacity } from 'react-native'
 
 import Home from './screens/home'
@@ -23,7 +23,8 @@ const Routes = () => {
             },
             headerRight: () => (
               <TouchableOpacity style={{ marginRight: 15 }}>
-                <Entypo name="shopping-bag" size={24} color="black" />
+                <Feather name="shopping-bag" size={24} color="black" />
+
               </TouchableOpacity>
             )
 
@@ -39,7 +40,7 @@ const Routes = () => {
             },
             headerRight: () => (
               <TouchableOpacity style={{ marginRight: 15 }}>
-                <Entypo name="shopping-bag" size={24} color="black" />
+                <Feather name="shopping-bag" size={24} color="black" />
               </TouchableOpacity>
             )
 
