@@ -12,6 +12,7 @@ export const Title = styled.Text`
   font-weight: 700;
   font-family: Nunito;
   color: #333;
+  margin:  0 0 20px 0;
 `;
 
 export const ContainerItems = styled(ScrollView)`
