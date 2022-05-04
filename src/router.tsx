@@ -4,8 +4,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import { Feather } from '@expo/vector-icons'
 import { TouchableOpacity } from 'react-native'
 
-import Home from './screens/home'
-import Details from './screens/details'
+import Home from './Screens/Home'
+import Details from './Screens/Details'
 
 const Stack = createNativeStackNavigator();
 
@@ -24,12 +24,11 @@ const Routes = () => {
             headerRight: () => (
               <TouchableOpacity style={{ marginRight: 15 }}>
                 <Feather name="shopping-bag" size={24} color="black" />
-
               </TouchableOpacity>
             )
-
           }}
         />
+
         <Stack.Screen
           name="details"
           component={Details}
@@ -43,7 +42,6 @@ const Routes = () => {
                 <Feather name="shopping-bag" size={24} color="black" />
               </TouchableOpacity>
             )
-
           }}
         />
       </Stack.Navigator>

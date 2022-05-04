@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-const Page = () => {
+const Details = () => {
   return(
     <View>
       <Text>Pagina Detalhes</Text>
@@ -9,4 +9,4 @@ const Page = () => {
   )
 }
 
-export default Page;
+export default Details;

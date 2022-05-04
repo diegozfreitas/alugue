@@ -1,6 +1,5 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView } from 'react-native';
 
 import AppLoading from 'expo-app-loading';
 import { useFonts, Nunito_400Regular, Nunito_700Bold } from '@expo-google-fonts/nunito'
@@ -16,7 +15,7 @@ export default function App() {
   if (!fontsLoaded) {
     return <AppLoading />
   }
-
+  
   return (
     <>
       <StatusBar style="light" backgroundColor="#000" translucent={false} />

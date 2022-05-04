@@ -4,29 +4,28 @@ export const Container = styled.TouchableOpacity`
   margin-right: 15px;
   border: 1px solid #dedede;
   border-radius: 10px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 100px;
   overflow: hidden;
   flex-direction: row;
-  margin-bottom: 20px;
-
-  position: relative;
 `;
 
 export const Image = styled.Image`
-  width: 200px;
-  height: 200px;
-  
+  width: 100px;
+  height: 100px;
 `;
 
 export const Title = styled.Text`
   font-size: 18px;
-  font-family: Nunito;
+  font-family: Nunito_400Regular;
   font-weight: 700;
-  color: #fff;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
-  text-transform: capitalize;
+  color: #333;
+  margin: 0 10px;
+`;
+
+export const Description = styled.Text`
+  font-size: 14px;
+  font-family: Nunito_400Regular;
+  color: #333;
+  margin: 0 10px;
 `;

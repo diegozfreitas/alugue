@@ -1,30 +1,26 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import { ScrollView } from 'react-native-gesture-handler';
+import React from "react";
 
-import { Search } from './components/Search'
-import { Carousel } from './components/Carousel'
-import { CloseToYou } from './components/CloseToYou'
-import { TipDay } from './components/TipDay'
+import { Search } from "../../Components/Search";
+import { Carousel } from "../../Components/Carousel";
+import { CloseToYou } from "../../Components/CloseToYou";
+import { TipDay } from "../../Components/TipDay";
 
-const Page = () => {
+import { Container } from "./style";
+
+import { data } from "../../Mock/houses";
+
+const Home = () => {
   return (
-    <ScrollView
-      showsVerticalScrollIndicator={false}
-      style={{
-        backgroundColor: '#fff',
-      }}
-    >
-
+    <Container>
       <Search />
 
-      <Carousel/>
+      <Carousel data={[data[0], data[1], data[2]]} />
 
-      <CloseToYou/>
+      <CloseToYou data={[data[5], data[6], data[7], data[18]]}/>
 
-      <TipDay/>
-    </ScrollView>
-  )
-}
+      <TipDay data={data}/>
+    </Container>
+  );
+};
 
-export default Page;
+export default Home;

@@ -5,7 +5,8 @@ export const Container = styled.TouchableOpacity`
   border: 1px solid #dedede;
   border-radius: 10px;
   width: 200px;
-  height: 250px;
+  height: auto;
+  padding-bottom: 10px;
   overflow: hidden;
 `;
 
@@ -16,7 +17,7 @@ export const Image = styled.Image`
 
 export const Title = styled.Text`
   font-size: 18px;
-  font-family: Nunito;
+  font-family: Nunito_400Regular;
   font-weight: 700;
   color: #333;
   margin: 0 10px;
@@ -24,7 +25,7 @@ export const Title = styled.Text`
 
 export const Description = styled.Text`
   font-size: 14px;
-  font-family: Nunito;
+  font-family: Nunito_400Regular;
   color: #333;
   margin: 0 10px;
 `;
