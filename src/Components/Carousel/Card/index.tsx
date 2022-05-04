@@ -16,6 +16,7 @@ interface CardProps {
 
 export const Card = ({ data }: CardProps) => {
   const { image, name } = data;
+  
   return (
     <Container onPress={() => Alert.alert("Oi", "Você clicou no item" + name)}>
       <Image
