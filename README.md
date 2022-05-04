@@ -20,8 +20,8 @@ Estou também disponibilizando na raiz do diretorio um APK para instalar diretam
 
 # Prints do projeto
 
-<img src="./markdown/assets/app1.png " width="32%" alt="Print tela 1 do app">
-<img src="./markdown/assets/app2.png " width="32%" alt="Print tela 2 do app">
+<img src="./markdown/assets/app1.png " width="32%" alt="Print tela 1 do app" style="display: inline">
+<img src="./markdown/assets/app2.png " width="32%" alt="Print tela 2 do app" style="display: inline">
 
 # Video sobre o projeto
 
