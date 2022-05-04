@@ -21,7 +21,6 @@ Estou também disponibilizando na raiz do diretorio um APK para instalar diretam
 # Prints do projeto
 
 <img src="./markdown/assets/app1.png " width="32%" alt="Print tela 1 do app">
-<img src="./markdown/assets/app2.png " width="32%" alt="Print tela 2 do app">
 
 # Video sobre o projeto
 
@@ -38,6 +37,6 @@ Estou também disponibilizando na raiz do diretorio um APK para instalar diretam
 
 # Link para fazer o download do APK
 
-<a href="https://www.youtube.com/watch?v=0DuIVes_A6M" target="_blank">
+<a href="./markdown/alugue.apk" target="_blank">
     <img src="./markdown/assets/icone_download.png" width="100px">
 </a>
