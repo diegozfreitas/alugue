@@ -34,9 +34,3 @@ Estou também disponibilizando na raiz do diretorio um APK para instalar diretam
     <img src="./markdown/assets/miniatura_video_tecnico.jpg" width="330px">
 </a>
 
-
-# Link para fazer o download do APK
-
-<a href="./markdown/alugue.apk" target="_blank">
-    <img src="./markdown/assets/icone_download.png" width="100px">
-</a>
